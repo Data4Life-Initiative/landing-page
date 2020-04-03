@@ -6,7 +6,7 @@ class UsefulResources extends React.Component {
     return (
       <Container>
         <Row>
-          <Col xl={4} lg={4} md={12} xs={12}>
+          <Col xl={4} lg={4} md={12} xs={12} className="d-flex">
             <Card className="pb-4 mb-4">
               <Card.Header >
                 <Card.Title className="mb-0">Protect yourself</Card.Title> 
@@ -16,14 +16,7 @@ class UsefulResources extends React.Component {
                     Individuals an app to self-assess their situation and risk of unknowingly 
                     transmitting the virus and take action accordingly. It also gives them a
                     means to contribute their data, in life and for posthumous data donation  
-                    for the public good. The solution has a human-centric approach to personal 
-                    data (in line with MyData Principles) where the individual is empowered to 
-                    control how his/her data is used. By giving the control to the individual, 
-                    concerns around digital surveillance can be addressed effectively. Via a 
-                    location-based heatmap, the individual can plan his/her life reducing the 
-                    risk of infection and can get back to their normal life during emergencies. 
-                    Based on infection hotspot data, they can receive alerts in real-time based 
-                    on their personal health profile.
+                    for the public good.  
                 </Card.Text>
                 <Button variant="primary">Learn more</Button>
               </Card.Body>
