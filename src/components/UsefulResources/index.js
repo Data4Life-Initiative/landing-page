@@ -25,7 +25,7 @@ class UsefulResources extends React.Component {
                     Based on infection hotspot data, they can receive alerts in real-time based 
                     on their personal health profile.
                 </Card.Text>
-                <Button variant="primary">More</Button>
+                <Button variant="primary">Learn more</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -41,7 +41,7 @@ class UsefulResources extends React.Component {
                      to prevent spread and future breakouts. The solution also opens up for a
                      posthumous data donation register to give custodianship to e.g. Socialstyrelsen.
                 </Card.Text>
-                <Button variant="primary">More</Button>
+                <Button variant="primary">Learn more</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -59,7 +59,7 @@ class UsefulResources extends React.Component {
                     and reduce panic in emergency situations.
                 </Card.Text>
           
-                <Button variant="primary">More</Button>
+                <Button variant="primary">Learn more</Button>
               </Card.Body>
             </Card>
           </Col>
