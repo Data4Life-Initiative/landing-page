@@ -5,7 +5,7 @@ header
 }
 
 footer {
-   position: relative;
+   position: absolute;
    bottom: 0;
    width: 100%;
    text-align: center;
@@ -44,6 +44,5 @@ footer {
 
   .bgimage
   {
-    width: 100%;
     background: url("../images/med-img.jpg") no-repeat center center;
   }
