@@ -75,10 +75,10 @@ publish: $(DEPLOY_VERSION_F ILE) ## Publish latest production Docker image to do
 	gcloud docker -- push $(DEPLOY_VERSION)
 
 deploy/production: $(DEPLOY_VERSION_FILE) ## Deploy to K8s cluster (e.g. make deploy/{preview,staging,production})
-	kubectl set image deployment/igrant-dashboard igrant-dashboard=$(DEPLOY_VERSION)
+	kubectl set image deployment/landing-page landing-page=$(DEPLOY_VERSION)
 
 deploy/staging: $(DEPLOY_VERSION_FILE) ## Deploy to K8s cluster (e.g. make deploy/{preview,staging,staging})
-	kubectl set image deployment/igrant-dashboard igrant-dashboard=$(DEPLOY_VERSION) -n staging
+	kubectl set image deployment/landing-page landing-page=$(DEPLOY_VERSION) -n staging
 
 $(DEPLOY_VERSION_FILE):
 	@echo "Missing '$(DEPLOY_VERSION_FILE)' file. Run 'make build/docker/deployable'" >&2
