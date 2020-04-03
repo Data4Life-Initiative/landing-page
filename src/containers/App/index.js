@@ -16,7 +16,7 @@ import logoImage from '../../assets/images/logo192_blue.png';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <header>
         <Navbar expand="lg" variant="dark" >
           <div className="container">
@@ -39,7 +39,7 @@ function App() {
       <UsefulResources></UsefulResources>
       <div className="container"></div>
       <footer id="footer" >
-        <div className="row">
+        <div className="row w-100">
           <div className="col-md-4 col-sm-4">
               <p className="copyright text-xs-center">&copy; 2020-<span id="copyrt"></span> Data4life </p>
           </div>

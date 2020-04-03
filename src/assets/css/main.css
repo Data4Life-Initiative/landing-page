@@ -1,11 +1,13 @@
 @import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 header
 {
    background-color:#004B87;
 }
 
 footer {
-   position: absolute;
+  
+   position: static;
    bottom: 0;
    width: 100%;
    text-align: center;
@@ -42,7 +44,12 @@ footer {
       height: 48px;
   }
 
+  App {
+background-color: lawngreen;
+  }
   .bgimage
   {
     background: url("../images/med-img.jpg") no-repeat center center;
   }
+
+  

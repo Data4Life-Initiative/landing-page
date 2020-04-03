@@ -4,7 +4,7 @@ import { Jumbotron, Button } from "react-bootstrap";
 class GettingStarted extends React.Component {
   render() {
     return (
-      <Jumbotron className="bgimage" display block>
+      <Jumbotron className="bgimage" >
         <div className="container" >
           <h1>Data4Life</h1>
           <p>
