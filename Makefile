@@ -42,24 +42,6 @@ help:
 	@echo "------------------------------------------------------------------------"
 	@grep -E '^[0-9a-zA-Z_/%\-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-.bootstrap:
-	git clone git@github.com:L3-iGrant/bootstrap.git "$(CURDIR)/.bootstrap"
-
-.PHONY: bootstrap
-bootstrap: .bootstrap ## Boostraps development environment
-	git -C $(CURDIR)/.bootstrap fetch --all --prune
-	git -C $(CURDIR)/.bootstrap reset --hard origin/master
-	make -C .bootstrap bootstrap
-
-setup: bootstrap ## Sets up development environment
-
-run: ## Run dashboard locally for development purposes
-	docker run \
-		$(CONTAINER_DEFAULT_RUN_FLAGS) \
-		--expose 5000 \
-		-e VIRTUAL_HOST=$(APP).$(PROJECT).dev \
-		--name "${CONTAINER_DASHBOARD}" \
-		$(DOCKER_IMAGE):dev
 
 .PHONY: build/docker/deployable
 build/docker/deployable: ## Builds deployable docker image for preview, staging and production

@@ -8,14 +8,11 @@ pipeline {
         timestamps()
         buildDiscarder(logRotator(numToKeepStr: '30'))
     }
-    environment {
-        TERM_FLAGS=" "
-    }
     stages {
         stage('Initial cleanup and checkout') {
             steps {
                 sh 'if [ $(docker ps -aq | wc -l) -gt 0 ] ; then docker rm -f $(docker ps -aq) ; fi'
-                sh 'chown -R ${USER}:${USER} .'
+                sh 'sudo chown -R ${USER}:${USER} .'
                 deleteDir()
                 checkout scm
             }
