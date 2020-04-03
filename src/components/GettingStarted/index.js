@@ -1,10 +1,11 @@
 import React from "react";
 import { Jumbotron, Button } from "react-bootstrap";
+
 class GettingStarted extends React.Component {
   render() {
     return (
-      <Jumbotron>
-        <div className="container">
+      <Jumbotron className="bgimage" display block>
+        <div className="container" >
           <h1>Data4Life</h1>
           <p>
              The Data4Life solution is tackling the citizen/employee journey throughout 
