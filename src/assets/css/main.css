@@ -1,1 +1,37 @@
 @import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+header
+{
+   background-color:#004B87;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-color:#004B87;
+   color: rgba(255,255,255,.5); 
+   padding-top: 12px;
+  }
+
+  a
+  {
+      text-decoration:none ;
+  }
+
+  a:link {
+    color: rgba(255,255,255,.5); 
+  }
+  
+  a:visited {
+    color: rgba(255,255,255,.5); 
+  }
+  
+   a:hover {
+    color: white; 
+  }
+  
+
+  a:active {
+    color:white;
+  }

@@ -6,10 +6,10 @@ class GettingStarted extends React.Component {
     return (
       <Jumbotron>
         <div className="container">
-          <h1>Hello, world!</h1>
+          <h1>Data4Life</h1>
           <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+            This is an open source initiative to look at using data for 
+            good during pandemics, providing services to citizens.
           </p>
           <p>
             <Button variant="primary">Learn more</Button>
