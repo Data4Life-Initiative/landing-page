@@ -32,7 +32,7 @@ class UsefulResources extends React.Component {
           <Col xl={4} lg={4} md={12} xs={12}>
             <Card className="pb-4 mb-4">
              <Card.Header >
-                <Card.Title className="mb-0">Protect the society:</Card.Title> 
+                <Card.Title className="mb-0">Protect the society</Card.Title> 
               </Card.Header> 
               <Card.Body>
                 <Card.Text>
@@ -48,7 +48,7 @@ class UsefulResources extends React.Component {
           <Col xl={4} lg={4} md={12} xs={12}>
             <Card className="pb-4 mb-4">
               <Card.Header >
-                <Card.Title className="mb-0">Help the authority:</Card.Title> 
+                <Card.Title className="mb-0">Help the authority</Card.Title> 
               </Card.Header> 
               <Card.Body>
                 <Card.Text>
