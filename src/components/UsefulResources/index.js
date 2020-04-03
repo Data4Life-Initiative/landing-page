@@ -6,55 +6,59 @@ class UsefulResources extends React.Component {
     return (
       <Container>
         <Row>
-          <Col>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="https://via.placeholder.com/100" />
+          <Col xl={4} lg={4} md={12} xs={12}>
+            <Card className="pb-4 mb-4">
+              <Card.Header >
+                <Card.Title className="mb-0">Protect yourself</Card.Title> 
+              </Card.Header> 
               <Card.Body>
-                <Card.Title>COVID-19</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                    Individuals an app to self-assess their situation and risk of unknowingly 
+                    transmitting the virus and take action accordingly. It also gives them a
+                    means to contribute their data, in life and for posthumous data donation  
+                    for the public good. The solution has a human-centric approach to personal 
+                    data (in line with MyData Principles) where the individual is empowered to 
+                    control how his/her data is used. By giving the control to the individual, 
+                    concerns around digital surveillance can be addressed effectively. Via a 
+                    location-based heatmap, the individual can plan his/her life reducing the 
+                    risk of infection and can get back to their normal life during emergencies. 
+                    Based on infection hotspot data, they can receive alerts in real-time based 
+                    on their personal health profile.
                 </Card.Text>
                 <Button variant="primary">More</Button>
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="https://via.placeholder.com/100" />
+          <Col xl={4} lg={4} md={12} xs={12}>
+            <Card className="pb-4 mb-4">
+             <Card.Header >
+                <Card.Title className="mb-0">Protect the society:</Card.Title> 
+              </Card.Header> 
               <Card.Body>
-                <Card.Title>Basic protective measures</Card.Title>
                 <Card.Text>
-                <ul>
-                  <li>Wash your hands frequently</li>
-                  <li>Maintain social distancing</li>
-                  <li>Avoid touching eyes, nose and mouth</li>
-                  <li>Practice respiratory hygiene</li>
-                  <li>If you have fever, cough and difficulty breathing, seek medical care early</li>
-                  <li>Stay informed and follow advice given by your healthcare provider</li>
-                </ul> 
+                     By re-using the contributed personal data for population health research 
+                     the solution also supports predictive health recommendations and helps 
+                     to prevent spread and future breakouts. The solution also opens up for a
+                     posthumous data donation register to give custodianship to e.g. Socialstyrelsen.
                 </Card.Text>
                 <Button variant="primary">More</Button>
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="https://via.placeholder.com/100" />
+          <Col xl={4} lg={4} md={12} xs={12}>
+            <Card className="pb-4 mb-4">
+              <Card.Header >
+                <Card.Title className="mb-0">Help the authority:</Card.Title> 
+              </Card.Header> 
               <Card.Body>
-                <Card.Title>Protection measures</Card.Title>
                 <Card.Text>
-                  <ul>
-                    <li>Follow the guidance outlined </li>
-                    <li>Stay at home if you begin to feel unwell, even with mild symptoms such as headache and slight
-                        runny nose, until you recover. 
-                    </li>
-                    <li>If you develop fever, cough and difficulty breathing, seek medical advice promptly as this
-                        may be due to a respiratory infection or other serious condition. 
-                        Call in advance and tell your provider of any recent travel or contact with travelers.
-                    </li>
-                  </ul>
-                 </Card.Text>
+                    Authorities can make informed decisions based on the data collected 
+                    through Data4Life, optimizing the public resources (e.g. identifying 
+                    hotspots for sanitation, contact tracing, resource planning at nursing 
+                    homes). By being transparent, authorities can create trust in the society 
+                    and reduce panic in emergency situations.
+                </Card.Text>
+          
                 <Button variant="primary">More</Button>
               </Card.Body>
             </Card>

@@ -17,6 +17,7 @@ footer {
   a
   {
       text-decoration:none ;
+
   }
 
   a:link {
@@ -34,4 +35,9 @@ footer {
 
   a:active {
     color:white;
+  }
+
+  img{
+      width: 48px;
+      height: 48px;
   }

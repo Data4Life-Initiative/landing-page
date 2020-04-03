@@ -12,6 +12,7 @@ import {
 // components
 import GettingStarted from './../../components/GettingStarted'
 import UsefulResources from './../../components/UsefulResources'
+import logoImage from '../../assets/images/logo192_blue.png'; 
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <header>
         <Navbar expand="lg" variant="dark" >
           <div className="container">
-            <Navbar.Brand href="#home">Data4Life</Navbar.Brand>
+           <Navbar.Brand href="#home"><img src={logoImage}/>Data4Life</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
@@ -40,7 +41,7 @@ function App() {
       <footer id="footer" >
         <div className="row">
           <div className="col-md-4 col-sm-4">
-              <p className="copyright text-xs-center">&copy; 2020-<span id="copyrt"></span> LCubed AB, Sweden </p>
+              <p className="copyright text-xs-center">&copy; 2020-<span id="copyrt"></span> Data4life </p>
           </div>
           <div className="col-md-4 col-sm-4">
               <div>
@@ -51,7 +52,7 @@ function App() {
           </div>
            <div className="col-md-4 col-sm-4">
               <div>
-                <a href="mailto:info@igrant.io"> info@igrant.io </a> 
+                <a href="">  </a> 
               </div>
           </div> 
         </div>
