@@ -8,6 +8,9 @@ pipeline {
         timestamps()
         buildDiscarder(logRotator(numToKeepStr: '30'))
     }
+    environment {
+        TERM_FLAGS=" "
+    }
     stages {
         stage('Initial cleanup and checkout') {
             steps {
