@@ -44,7 +44,11 @@ spec:
     - host: swindy.se
       http:
         paths:
-          - path: /mydata4life
+          - path: /
+            backend:
+              serviceName: landing-page-svc
+              servicePort: 80
+          - path: /*
             backend:
               serviceName: landing-page-svc
               servicePort: 80
