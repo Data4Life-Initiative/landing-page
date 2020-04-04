@@ -41,7 +41,7 @@ function App() {
       <footer id="footer" >
         <div className="row w-100">
           <div className="col-md-4 col-sm-4">
-              <p className="copyright text-xs-center">&copy; 2020-<span id="copyrt"></span> Data4life </p>
+              <p className="copyright text-xs-center">&copy; 2020-<span id="copyrt"></span> Data4life,  </p>
           </div>
           <div className="col-md-4 col-sm-4">
               <div>
