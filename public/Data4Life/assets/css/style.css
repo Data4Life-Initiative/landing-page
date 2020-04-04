@@ -1,10 +1,3 @@
-/**
-* Template Name: Vesperr - v2.0.0
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -28,6 +21,11 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+.ta_justify
+{
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -762,6 +760,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
@@ -1579,4 +1578,9 @@ section {
 
 #footer .footer-links a:hover {
   color: #3498db;
+}
+
+.terms-desc {
+  text-align: justify;
+  padding-bottom: 30px;
 }
