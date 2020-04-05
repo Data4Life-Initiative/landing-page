@@ -45,9 +45,9 @@ function App() {
           </div>
           <div className="col-md-4 col-sm-4">
               <div>
-                <a href="https://www.who.int" target="_blank"  > WHO </a> | 
+                <a href="https://www.igrant.io target="_blank"  > iGrant.io </a> | 
                 <a href="https://www.worldometers.info" target="_blank" > Worldometer </a>| 
-                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" > COVID-19 </a> 
+                <a href="https://github.com/covid-19-mapview" target="_blank" > Data4Life GitHub </a> 
               </div>
           </div>
            <div className="col-md-4 col-sm-4">
