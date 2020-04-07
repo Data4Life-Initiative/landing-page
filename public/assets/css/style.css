@@ -8,6 +8,7 @@ body {
 
 a {
   color: #3498db;
+  text-decoration: none; 
 }
 
 a:hover {
@@ -27,6 +28,9 @@ p {
   text-align: justify;
 }
 
+.bg-light {
+  background-color: #f7fbfe;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -91,7 +95,7 @@ p {
 
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #222222;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
 #header .logo img {
@@ -139,7 +143,7 @@ p {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #3498db;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 .nav-menu .get-started a {
@@ -148,12 +152,13 @@ p {
   border-radius: 50px;
   margin: 0 0 0 30px;
   padding: 10px 25px;
-  
+  text-decoration: none;
 }
 
 .nav-menu .get-started a:hover {
   background: #57aae1;
   color: #fff;
+  text-decoration: none;
 }
 
 .nav-menu .drop-down ul {
@@ -616,6 +621,7 @@ section {
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #3498db;
+  text-decoration: none;
 }
 
 .about .content .btn-learn-more:hover {
@@ -1597,4 +1603,39 @@ section {
 .terms-desc {
   text-align: justify;
   padding-bottom: 30px;
+}
+
+
+
+/* Accordion */
+.panel-title {
+  font-size: 18px;
+
+ }
+
+ .panel-heading {
+  border: none; 
+ }
+
+.panel-heading a {
+  position: relative;
+  display: block;
+  letter-spacing: 1px;
+  word-spacing: initial;
+  color:#555555;
+  transition: 0.3s;
+  font-family: "Open Sans", sans-serif;
+  }
+   
+ 
+
+.panel-heading a:hover, .panel-heading .active > a, .panel-heading li:hover > a {
+  color: #3498db;
+  text-decoration: none; 
+}
+
+.panel-body {
+  padding-left: 24px;
+  padding-bottom: 12px;
+  text-align:justify ;
 }

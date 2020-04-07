@@ -192,3 +192,12 @@
   });
 
 })(jQuery);
+
+$(document).ready(function(){
+
+  //fixed bootstrap scroll spy
+  $('#panel-collapse').on('activate.bs.scrollspy', function () {
+    $(".navbar-nav > li[class='active'] > a").focus();
+});
+
+});
