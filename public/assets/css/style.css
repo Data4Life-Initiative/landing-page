@@ -23,8 +23,7 @@ h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.ta_justify
-{
+p {
   text-align: justify;
 }
 
@@ -149,6 +148,7 @@ h2, h3, h4, h5, h6 {
   border-radius: 50px;
   margin: 0 0 0 30px;
   padding: 10px 25px;
+  
 }
 
 .nav-menu .get-started a:hover {
@@ -380,8 +380,15 @@ h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #484848;
-  margin-bottom: 50px;
   font-size: 24px;
+  text-align: justify;
+}
+
+#hero h3 {
+  margin-top: 12px;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 50px;
 }
 
 #hero .btn-get-started {
@@ -395,11 +402,13 @@ h2, h3, h4, h5, h6 {
   transition: 0.5s;
   color: #3498db;
   border: 2px solid #3498db;
+  text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
   background: #3498db;
   color: #fff;
+  text-decoration: none;
 }
 
 #hero .animated {
@@ -1572,14 +1581,17 @@ section {
 #footer .footer-links a {
   color: #222222;
   padding-left: 15px;
+  text-decoration: none;
 }
 
 #footer .footer-links a:first-child {
   padding-left: 0;
+  text-decoration: none;
 }
 
 #footer .footer-links a:hover {
   color: #3498db;
+  text-decoration: none;
 }
 
 .terms-desc {
