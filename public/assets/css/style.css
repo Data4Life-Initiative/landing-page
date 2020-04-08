@@ -32,6 +32,7 @@ p {
 .bg-light {
   background-color: #f7fbfe;
 }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -454,6 +455,12 @@ p {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+  }
+
+  #hero h3 {
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: justify;
     margin-bottom: 30px;
   }
   #hero .hero-img img {
