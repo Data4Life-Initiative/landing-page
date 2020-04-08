@@ -26,6 +26,7 @@ h2, h3, h4, h5, h6 {
 
 p {
   text-align: justify;
+  font-size: 14px;
 }
 
 .bg-light {
@@ -1609,7 +1610,7 @@ section {
 
 /* Accordion */
 .panel-title {
-  font-size: 16px;
+  font-size: 15px;
 
  }
 
@@ -1638,4 +1639,5 @@ section {
   padding-left: 24px;
   padding-bottom: 12px;
   text-align:justify ;
+  font-size: 14px;
 }
