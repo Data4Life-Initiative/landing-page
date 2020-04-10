@@ -505,6 +505,10 @@ section {
   overflow: hidden;
 }
 
+.section a {
+  text-decoration: none;
+}
+
 .section-bg {
   background-color: #f7fbfe;
 }
@@ -643,6 +647,10 @@ section {
   text-decoration: none;
 }
 
+.about .a
+{
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -856,7 +864,7 @@ section {
 }
 
 .more-services .read-more a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .more-services .card:hover .card-body {
