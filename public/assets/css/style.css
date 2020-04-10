@@ -647,7 +647,7 @@ section {
   text-decoration: none;
 }
 
-.about .a
+.about p a
 {
   text-decoration: none;
 }
@@ -791,6 +791,10 @@ section {
   font-size: 18px;
 }
 
+.services h4 a
+{
+	  text-decoration: none;
+}
 .services .title a {
   color: #111;
 }
