@@ -42,6 +42,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
+  text-decoration: none;
 }
 
 .back-to-top i {
@@ -54,12 +55,14 @@ p {
   border-radius: 4px;
   background: #3498db;
   color: #fff;
+  text-decoration: none;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
   background: #57aae1;
   color: #fff;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -97,7 +100,7 @@ p {
 
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #222222;
-  /*text-decoration: none;*/
+  text-decoration: none; 
 }
 
 #header .logo img {
@@ -198,6 +201,7 @@ p {
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #3498db;
+  text-decoration: none;
 }
 
 .nav-menu .drop-down > a:after {
@@ -313,6 +317,7 @@ p {
 .mobile-nav .get-started a:hover {
   background: #57aae1;
   color: #fff;
+  text-decoration: none;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -500,6 +505,10 @@ section {
   overflow: hidden;
 }
 
+.section a {
+  text-decoration: none;
+}
+
 .section-bg {
   background-color: #f7fbfe;
 }
@@ -638,6 +647,10 @@ section {
   text-decoration: none;
 }
 
+.about p a
+{
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -700,6 +713,7 @@ section {
 
 .counts .content .count-box a:hover {
   color: #6f6f6f;
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {
@@ -777,6 +791,10 @@ section {
   font-size: 18px;
 }
 
+.services h4 a
+{
+	  text-decoration: none;
+}
 .services .title a {
   color: #111;
 }
@@ -850,7 +868,7 @@ section {
 }
 
 .more-services .read-more a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .more-services .card:hover .card-body {
@@ -893,6 +911,7 @@ section {
 
 .features .icon-box h3 a:hover {
   color: #3498db;
+  text-decoration: none;
 }
 
 .features .icon-box:hover {
@@ -1100,6 +1119,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #3498db;
+  text-decoration: none;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1153,6 +1173,7 @@ section {
 
 .team .member .social a:hover {
   color: #3498db;
+  text-decoration: none;
 }
 
 .team .member .social i {
